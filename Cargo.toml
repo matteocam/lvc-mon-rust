@@ -1,0 +1,17 @@
+[package]
+name = "clearly-not-a-cute-name-for-vc"
+authors = [ "Anonymous" ]
+description = "Implementation of cross-commitment aggregatable vector commitments"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+paired =  "0.22.0"
+rand_core = "0.5"
+rand_xorshift = "0.2"
+fff = { version = "0.3.0", features = ["derive"] }
+groupy = "0.4.1"
+
+[dev-dependencies]
+env_logger = "0.8.1"
+criterion = "0.3.2"
